@@ -1,5 +1,5 @@
 
-# gene correlation of SOX9 with others
+# gene correlation 
 # JL
 
 
