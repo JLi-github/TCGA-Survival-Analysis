@@ -1,1 +1,1 @@
-This repository is for the TCGA data analysis of RNA-seq, WES, Surivial in Colorectal cancer
+This repository is for the TCGA data analysis of RNA-seq, WES, Surivial in Colorectal cancer. Data from TCGA database
