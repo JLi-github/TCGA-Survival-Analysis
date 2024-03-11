@@ -28,7 +28,7 @@ library("survminer")
 
 
 options(stringsAsFactors = FALSE)
-setwd("C:/Users/lijinju/downloads/projects/Ying_project/")
+setwd("C:/")
 
 
 # read the data
