@@ -41,7 +41,7 @@ library(Hmisc)
 library(plotrix)
 
 options(stringsAsFactors = FALSE)
-setwd("C:/Users/lijinju/downloads/projects/Ying_project/")
+setwd("C:/")
 
 surv = read_excel("TCGA Colon and Rectal Cancer_survival.xlsx")
 rnaseq = read.csv('tcga_sox9_phen_surv_RNAseq.csv')
