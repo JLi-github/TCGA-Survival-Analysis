@@ -60,13 +60,7 @@ sox9 = sox9[,-1]
 sox9 = dplyr::select(sox9, "sampleID")
 other_genes = merge(other_genes, sox9, by = "sampleID")
  
-
- 
-
-
-
 cor.test(as.numeric(other_genes$SOX9), as.numeric(other_genes$APC), method="pearson")
-
 
 result1 = cor.test(as.numeric(other_genes$SOX9), as.numeric(other_genes$APC), method="pearson")
 
@@ -136,7 +130,6 @@ p + theme(
 )  
 
 
-
 plot(as.numeric(other_genes$SOX9), as.numeric(other_genes$TP53), xlab = "SOX9", ylab ="TP53", main = title )
 model <- lm(as.numeric(other_genes$SOX9) ~ as.numeric(other_genes$TP53))
 
@@ -173,7 +166,6 @@ p + theme(
   axis.title.x = element_text(color="black", size=36, face="bold"),
   axis.title.y = element_text(color="black", size=36, face="bold", angle = 90)
 )  
-
 
 
 # KRAS
