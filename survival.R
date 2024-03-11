@@ -1,7 +1,7 @@
 
 # 03/21/2021
 # JL
-# SOX9 survival
+# Survival percentage
 
 
 library(ggplot2)
