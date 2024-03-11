@@ -3,7 +3,7 @@
 # JL
 # Survival
 # 10/14/2022
-# Jinju Li
+ 
 
 rm(list = ls(all = TRUE))
 
