@@ -23,7 +23,7 @@ library(grid)
 library(gridExtra)
 
 
-setwd("C:/Users/lijinju/downloads/projects/Ying_project/")
+setwd("C:/")
 options(stringsAsFactors = FALSE)
 
 tcga_sox9_1 = read.table('Colon and Rectal Cancer_RNAseq.txt')
