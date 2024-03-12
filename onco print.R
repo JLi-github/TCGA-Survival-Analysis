@@ -229,15 +229,6 @@ for (i in 1:dim(sox90onco1)[1])
   }
 }
 
-# cpm_log<-cpm(RNAseq2,log=T)
-# median_log2_cpm <- apply(cpm_log, 1, median)
-# hist(median_log2_cpm)
-
-# expr_cutoff <- 0
-# abline(v = expr_cutoff, col = "red", lwd = 3)
-# RNAseq2 <- RNAseq2[median_log2_cpm > expr_cutoff, ]
-# s<-apply(RNAseq2[,1:10], 2, sum)
-
 # In order to clearly visualize the data, genes for which less than 10% patients have mutations and patients which have 
 # mutations in less than 5% of the genes are removed.
 # l1 = apply(sox10onco1, 1, function(x) sum(!grepl("^\\s*$", x))/length(x) > 0.1)
